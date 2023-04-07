@@ -4,9 +4,12 @@ public class Cember {public static void main(String[] args) {
 
     Scanner scan = new Scanner(System.in);
 
-   // Kullanıcıdan alınan tam sayı (int) tipinde bir çap değerini argüman olarak alarak bir
-    // çemberin çevresini ve alanını hesaplayan iki fonksiyon yazınız.
+   /*
+     - Kullanıcıdan alınan tam sayı (int) tipinde bir çap değerini argüman olarak alarak bir
+     çemberin çevresini ve alanını hesaplayan iki fonksiyon yazınız.
+     - Çevre hesaplayan fonksiyonun geri dönüş tipi void, alan hesaplayan fonksiyonun geri dönüş tipi double olacaktır.
 
+    */
     System.out.print("Çemberin Çapını Giriniz: ");
     int cap = scan.nextInt();
     if (cap>0) {
